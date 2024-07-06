@@ -1,21 +1,21 @@
-
+import './style.css'
 const Navbar = () => {
     return (
-        <nav>
-            <a href="/">Portfolio</a>
-            <div>
-                <ul>
+        <nav className='navbar'>
+            <a className='title' href="/">Portfolio</a>
+            <div className='menu'>
+                <ul className='menu-items'>
                     <li>
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">Experience</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">Projects</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">Contact</a>
                     </li>
                 </ul>
             </div>
